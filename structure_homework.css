@@ -1,0 +1,106 @@
+body {
+    background: url(https://www.decathlon.ru//content/images/sportpage/Oxelo/background.jpg) center top no-repeat;
+}
+
+header {
+    position: relative;
+    height: 200px;
+    align-self: center;
+}
+
+.headlogo {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+
+}
+
+.content {
+    display: flex;
+}
+
+nav {
+    height: 300px;
+    width: 300px;
+}
+
+li {
+    margin: 10px;
+    width: 200;
+    height: 50px;
+    text-align: center;
+    background: repeating-linear-gradient(45deg,#fefc00,#fefc00 10px,grey 10px,grey 20px);
+    font-size: 20px;
+    font-family: 'rubik';
+    opacity: .7;
+}
+
+main {
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemimage {
+    width: 25%;
+    margin:  10px;
+}
+
+.itemimage img {
+    width: 100%;
+}
+
+.itemdescription {
+    width: 70%;
+    position: relative
+}
+
+.technical {
+    position: static;
+    align-self: flex-end;
+}
+aside {
+    height: 300px;
+    width: 200px;
+}
+
+aside p {
+    color: white;
+    font-family: monospace;
+    size: 25px;
+}
+
+footer {
+    background: #0082c3;
+    height: 200px;
+}
+
+footer p {
+    color: white;
+    font-family: monospace;
+    size: 40px;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+h1 {
+    color: #0082c3;
+    font-family: Yanone Kaffeesatz;
+    text-align: center;
+}
+
+h2 {
+    color: #0082c3;
+    font-family: Yanone Kaffeesatz; 
+}
+
+h3 {
+    color: #0082c3; 
+    font-family: rubik;
+}
